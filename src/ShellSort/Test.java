@@ -2,7 +2,7 @@ package ShellSort;
 
 public class Test {
     public static void main(String[] args) {
-        
+
         int[] intArray = {12, 1, -20, -12, 30, 4};
 
         for (int gap = intArray.length / 2; gap > 0; gap /= 2) {
@@ -18,8 +18,6 @@ public class Test {
                 }
 
                 intArray[j] = newElement;
-
-
             }
         }
 
