@@ -1,4 +1,4 @@
-package DataStructure.Stack.StacksArrayImpl;
+package DataStructure.Stack.StacksLindekListImpl;
 
 import java.util.Objects;
 
