@@ -1,4 +1,4 @@
-package CountingSort;
+package AlgorithmsSorting.CountingSort;
 
 public class Test {
     public static void main(String[] args) {

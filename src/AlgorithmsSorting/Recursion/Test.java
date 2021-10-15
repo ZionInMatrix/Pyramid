@@ -1,4 +1,4 @@
-package Recursion;
+package AlgorithmsSorting.Recursion;
 
 public class Test {
     public static void main(String[] args) {

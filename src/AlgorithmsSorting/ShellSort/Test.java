@@ -1,4 +1,4 @@
-package ShellSort;
+package AlgorithmsSorting.ShellSort;
 
 public class Test {
     public static void main(String[] args) {
