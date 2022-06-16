@@ -1,6 +1,6 @@
 package SortAlgorithms.RadixSort;
 
-public class Test {
+public class RadixSort {
     public static void main(String[] args) {
 
         int[] radixArray = {4725, 4586, 1330, 8792, 1594, 5729};

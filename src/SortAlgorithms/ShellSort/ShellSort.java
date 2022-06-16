@@ -1,6 +1,6 @@
 package SortAlgorithms.ShellSort;
 
-public class Test {
+public class ShellSort {
     public static void main(String[] args) {
 
         int[] intArray = {12, 1, -20, -12, 30, 4};

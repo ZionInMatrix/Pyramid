@@ -1,6 +1,6 @@
 package SortAlgorithms.Recursion;
 
-public class Test {
+public class Recursion {
     public static void main(String[] args) {
 
         System.out.println(iterativeFactorial(4));
