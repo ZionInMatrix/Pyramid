@@ -49,7 +49,47 @@ public class TreeNode {
         return null;
     }
 
+    public int min() {
+        if (leftChild == null) {
+            return data;
+        } else {
+            return leftChild.min();
+        }
+    }
+
+    public int max() {
+        if (rightChild == null) {
+            return data;
+        } else {
+            return rightChild.max();
+        }
+    }
+
     public TreeNode(int data) {
         this.data = data;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    public void setData(int data) {
+        this.data = data;
+    }
+
+    public TreeNode getLeftChild() {
+        return leftChild;
+    }
+
+    public void setLeftChild(TreeNode leftChild) {
+        this.leftChild = leftChild;
+    }
+
+    public TreeNode getRightChild() {
+        return rightChild;
+    }
+
+    public void setRightChild(TreeNode rightChild) {
+        this.rightChild = rightChild;
     }
 }

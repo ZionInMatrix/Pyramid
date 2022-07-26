@@ -15,7 +15,10 @@ public class Main {
 
 //        tree.traverseInOrder();
 
-        System.out.println(tree.get(27));
-        System.out.println(tree.get(17));
+//        System.out.println(tree.get(27));
+//        System.out.println(tree.get(17));
+
+        System.out.println(tree.min());
+        System.out.println(tree.max());
     }
 }
