@@ -33,31 +33,23 @@ public class TreeNode {
         }
     }
 
+    public TreeNode get(int value) {
+        if (value == data) {
+            return this;
+        }
+        if (value < data) {
+            if (leftChild != null) {
+                return leftChild.get(value);
+            }
+        } else {
+            if (rightChild != null) {
+                return rightChild.get(value);
+            }
+        }
+        return null;
+    }
+
     public TreeNode(int data) {
         this.data = data;
-    }
-
-    public int getData() {
-        return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
-    }
-
-    public TreeNode getLeftChild() {
-        return leftChild;
-    }
-
-    public void setLeftChild(TreeNode leftChild) {
-        this.leftChild = leftChild;
-    }
-
-    public TreeNode getRightChild() {
-        return rightChild;
-    }
-
-    public void setRightChild(TreeNode rightChild) {
-        this.rightChild = rightChild;
     }
 }
