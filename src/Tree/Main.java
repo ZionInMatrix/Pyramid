@@ -1,4 +1,4 @@
-package Trees.Insertion;
+package Tree;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +12,7 @@ public class Main {
         tree.insert(26);
         tree.insert(22);
         tree.insert(32);
+
+        tree.traverseInOrder();
     }
 }

@@ -1,4 +1,4 @@
-package Trees.Insertion;
+package Tree;
 
 public class TreeNode {
 
@@ -20,7 +20,17 @@ public class TreeNode {
                 rightChild = new TreeNode(value);
             } else rightChild.insert(value);
         }
+    }
 
+    public void traverseInOrder() {
+        if (leftChild != null) {
+            leftChild.traverseInOrder();
+        }
+        System.out.print("Data = " + data + ", ");
+
+        if (rightChild != null) {
+            rightChild.traverseInOrder();
+        }
     }
 
     public TreeNode(int data) {

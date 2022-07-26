@@ -1,4 +1,4 @@
-package Trees.Insertion;
+package Tree;
 
 public class Tree {
 
@@ -7,9 +7,14 @@ public class Tree {
     public void insert(int value) {
         if (root == null) {
             root = new TreeNode(value);
-        }
-        else {
+        } else {
             root.insert(value);
+        }
+    }
+
+    public void traverseInOrder() {
+        if (root != null) {
+            root.traverseInOrder();
         }
     }
 }
