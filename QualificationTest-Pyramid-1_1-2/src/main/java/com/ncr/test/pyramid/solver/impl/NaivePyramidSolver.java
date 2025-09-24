@@ -29,9 +29,7 @@ public class NaivePyramidSolver implements PyramidSolver {
 
     private long getTotalAbove(int row, int col, Pyramid pyramid, Long[][] memo, int totalRows) {
         if (memo[row][col] != null) return memo[row][col];
-
-        // IMPORTANT: index check (you can uncomment assert during debugging)
-        // assert col >= 0 && col < (totalRows - row) : “bad index: row=" + row + " col=” + col;
+        
         int myValue = pyramid.get(row, col);
 
         // Base case: reached the top row
